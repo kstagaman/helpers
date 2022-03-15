@@ -10,5 +10,6 @@ License: GPL-3.0-only
 Encoding: UTF-8
 LazyData: true
 Suggests:
-  BiocManager
+  BiocManager,
+  data.table
 RoxygenNote: 7.1.2
