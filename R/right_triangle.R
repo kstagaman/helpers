@@ -8,9 +8,8 @@
 #' @param value logical; TRUE: return the value, FALSE: just print the value
 #' @export
 #' @examples
-#' mat <- matrix(rnorm(1:10000), nrow = 100, ncol = 100)
-#' prev.tbl(mat)
-#'
+#' right.triangle(a = 2, b = 3)
+
 right.triangle <- function(a = NULL, b = NULL, c = NULL, round.to = 3, value = FALSE) {
   if (sum(c(is.null(a), is.null(b), is.null(c))) != 1) {
     stop("Must supply lengths of exactly two sides")
