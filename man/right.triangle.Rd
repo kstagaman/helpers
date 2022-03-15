@@ -21,7 +21,5 @@ right.triangle(a = NULL, b = NULL, c = NULL, round.to = 3, value = FALSE)
 Given the lenghts of two sides of a right triangle, returns the third (via the Pythagorean theorem)
 }
 \examples{
-mat <- matrix(rnorm(1:10000), nrow = 100, ncol = 100)
-prev.tbl(mat)
-
+right.triangle(a = 2, b = 3)
 }

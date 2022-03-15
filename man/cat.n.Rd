@@ -10,7 +10,7 @@ cat.n(x)
 \item{x}{a string or object containing a string}
 }
 \description{
-Automatically set the `sep` argument in `cat` to `"\n"`
+Automatically set the `sep` argument in `cat` to a newline
 }
 \examples{
 string <- "hello world!"
