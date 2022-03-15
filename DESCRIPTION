@@ -1,0 +1,14 @@
+Package: helpers
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Date: 2022-03-15
+Author: Keaton Stagaman
+Maintainer: Keaton Stagaman <kstagaman@gmail.com>
+Description: An R package with various, simple functions for making life easier.
+License: GPL-3.0-only
+Encoding: UTF-8
+LazyData: true
+Suggests:
+  BiocManager
+RoxygenNote: 7.1.2
