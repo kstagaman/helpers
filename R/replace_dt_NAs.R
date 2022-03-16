@@ -17,7 +17,7 @@ replace.dt.NAs <- function(dt, replacement = 0){
   if (!is.null(sort.col)) {
     old.values <- dt[[sort.col]]
   }
-  dm <- data.matridt(dt)
+  dm <- data.matrix(dt)
   dm[is.na(dm)] <- replacement
   dt.return <- data.table(dm)
   if (!is.null(sort.col)) {
