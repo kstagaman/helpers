@@ -3,6 +3,8 @@
 export(as.obj)
 export(cat.n)
 export(chance.to.happen)
+export(check.unused.packages)
+export(display.html.table)
 export(get.divisors)
 export(getCB.pal)
 export(min2time)

@@ -1,8 +1,8 @@
 Package: helpers
 Type: Package
 Title: What the Package Does (Title Case)
-Version: 0.1.0
-Date: 2022-03-15
+Version: 0.1.1
+Date: 2022-03-29
 Author: Keaton Stagaman
 Maintainer: Keaton Stagaman <kstagaman@gmail.com>
 Description: An R package with various, simple functions for making life easier.
