@@ -13,7 +13,6 @@ devtools::install_github("kstagaman/helpers")
 - `as.obj`: Treat a string as an object name
 - `cat.n`: Automatically set the `sep` argument in `cat` to a newline
 - `chance.to.happen`: Calculate the probability of an outcome happening given its per-event probability and the number of events
-- `check.unused.packages`: Automatically set the `sep` argument in `cat` to a newline
 - `getCB.pal`: Select from two colorblind-friendly palettes (8 colors each) with either gray or black as the first color
 - `display.html.table`: Embeds a HTML table (from an HTML file) in an iframe within the output document to preserve nice formatting
 - `get.divisors`: Get the divisors of an integer
