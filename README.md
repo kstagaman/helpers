@@ -30,4 +30,4 @@ The function `unavailable_packages` has the option to install missing packages [
 
 The function `replace.dt.NAs` is only for use with table created with the `data.table` [package](https://github.com/Rdatatable/data.table).
 
-The function `display.html.table` was developed particularly for use in embedding html tables in github documents using knitr and Rmarkdown files. It may have uses in other cases, but it hasn't been tested for those.
+The function `display.html.table` was developed particularly for use in embedding html tables in html documents using knitr and Rmarkdown files. It may have uses in other cases, but it hasn't been tested for those. It will not work for github_documents in a github markdown file.
