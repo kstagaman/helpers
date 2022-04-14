@@ -10,5 +10,7 @@
 #' prev.tbl(mat)
 
 prev.tbl <- function(tbl, n = 6) {
-  print(tbl[1:n, 1:n])
+  n.col <- min(c(n, ncol(tbl)))
+  n.row <- min(c(n, nrow(tbl)))
+  print(tbl[1:n.row, 1:n.col])
 }
