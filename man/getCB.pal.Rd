@@ -2,7 +2,7 @@
 % Please edit documentation in R/colorblind_pals.R
 \name{getCB.pal}
 \alias{getCB.pal}
-\title{colorblind palettes}
+\title{colorblind-friendly palettes}
 \usage{
 getCB.pal(pal = c("grey", "black"))
 }

@@ -1,6 +1,6 @@
-#' right triangle
-#'
-#' Given the lenghts of two sides of a right triangle, returns the third (via the Pythagorean theorem)
+#' @name right.triangle
+#' @title right triangle
+#' @description Given the lenghts of two sides of a right triangle, returns the third (via the Pythagorean theorem)
 #' @param a numeric; length of side A
 #' @param b numeric; length of side B
 #' @param c numeric; length of side C, the hypotenuse

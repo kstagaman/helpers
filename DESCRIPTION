@@ -1,8 +1,8 @@
 Package: helpers
 Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.2
-Date: 2022-04-13
+Title: A package of short, broadly useful functions
+Version: 0.1.3
+Date: `Sys.Date`
 Author: Keaton Stagaman
 Maintainer: Keaton Stagaman <kstagaman@gmail.com>
 Description: An R package with various, simple functions for making life easier.
@@ -12,4 +12,4 @@ LazyData: true
 Suggests:
   BiocManager,
   data.table
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.0

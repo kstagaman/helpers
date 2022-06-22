@@ -1,6 +1,6 @@
-#' chance to happen
-#'
-#' Calculate the probability of an outcome happening given its per-event probability and the number of events
+#' @name chance.to.happen
+#' @title chance to happen
+#' @description Calculate the probability of an outcome happening given its per-event probability and the number of events
 #' @param prob numeric; the probability (as a fraction or decimal) of the outcome occurring in a single event
 #' @param events integer; the number of events
 #' @param round.to integer; the number of decimal places to round the output to

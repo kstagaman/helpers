@@ -1,6 +1,6 @@
-#' preview table
-#'
-#' Previews the first n rows and columns from an array, matrix, data.frame...etc. Like `head` but also limits the columns shown, not just the rows.
+#' @name prev.tbl
+#' @title preview table
+#' @description Previews the first n rows and columns from an array, matrix, data.frame...etc. Like `head` but also limits the columns shown, not just the rows.
 #' @param tbl an array, matrix, data.frame, data.table, tibble, etc
 #' @param n integer; the number of rows and columns you want to preview, default 6
 #' @seealso \code{\link{head}}

@@ -1,6 +1,6 @@
-#' convert decimal minutes to long form
-#'
-#' Convert minutes in decimal form to (years), days, hours, minutes, and seconds
+#' @name min2time
+#' @title convert decimal minutes to long form
+#' @description Convert minutes in decimal form to (years), days, hours, minutes, and seconds
 #' @param m numeric; minutes in decimal form
 #' @param include.year logical; whether to include years in the output (TRUE), or just days, hours, minutes, and seconds (FALSE)
 #' @export

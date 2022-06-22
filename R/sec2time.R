@@ -1,6 +1,6 @@
-#' convert decimal seconds to long form
-#'
-#' Convert seconds in decimal form to (years), days, hours, minutes, and seconds
+#' @name sec2time
+#' @title convert decimal seconds to long form
+#' @description Convert seconds in decimal form to (years), days, hours, minutes, and seconds
 #' @param s numeric; seconds in decimal form
 #' @param include.year logical; whether to include years in the output (TRUE), or just days, hours, minutes, and seconds (FALSE)
 #' @export

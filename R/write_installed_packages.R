@@ -1,6 +1,6 @@
-#' write installed packages to file
-#'
-#' Lists and writes all installed packages to a file.
+#' @name write.installed.packages
+#' @title write installed packages to file
+#' @description Lists and writes all installed packages to a file.
 #' @param name character; the name of the output file, NO EXTENSION. Default "installed_packages"
 #' @param path character; the name of the output directory. Default "./"
 #' @param filetype character; the type of file to write "txt" for a plaintext file or "rds" for an R binary object file. Default "txt"

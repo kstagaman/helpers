@@ -1,6 +1,6 @@
-#' list (and install) unavailable packages
-#'
-#' Finds packages loaded (via `library` or `require`) by a script and determines which ones are not installed. Installs missing packages by default.
+#' @name unavailable.packages
+#' @title list (and install) unavailable packages
+#' @description Finds packages loaded (via `library` or `require`) by a script and determines which ones are not installed. Installs missing packages by default.
 #' @param file character; the name of a file that loads packages
 #' @param auto.install logical; TRUE: will attempt to install all missing packages, FALSE: will ask whether to install all, one, or no missing packages. default TRUE
 #' @param use.bioconductor logical; TRUE: use `bioconductor` (i.e., function `BiocManager::install`) to install the missing packages, FALSE: use base `install.packages` function. default TRUE

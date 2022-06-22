@@ -1,6 +1,6 @@
-#' get divisors
-#'
-#' Get the divisors of an integer
+#' @name get.divisors
+#' @title get divisors
+#' @description Get the divisors of an integer
 #' @param x integer
 #' @export
 #' @examples

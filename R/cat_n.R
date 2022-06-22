@@ -1,6 +1,6 @@
-#' newline cat
-#'
-#' Automatically set the `sep` argument in `cat` to a newline
+#' @name cat.n
+#' @title newline cat
+#' @description Automatically set the `sep` argument in `cat` to a newline
 #' @param x a string or object containing a string
 #' @seealso \code{\link{cat}}
 #' @export

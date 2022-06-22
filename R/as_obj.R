@@ -1,6 +1,6 @@
-#' string as an object name
-#'
-#' Treat a string as an object name
+#' @name as.obj
+#' @title string as an object name
+#' @description Treat a string as an object name
 #' @param x a string or object containing a string
 #' @seealso \code{\link{eval}}, \code{\link{parse}}
 #' @export
@@ -11,5 +11,5 @@
 
 as.obj <- function(x) {
     if (!("character" %in% class(x))) { stop("Argument `x` must be a string") }
-    return(eval(parse(text=x)))
+    return(eval(parse(text = x)))
 }
