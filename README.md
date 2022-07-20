@@ -16,6 +16,7 @@ devtools::install_github("kstagaman/helpers")
 - `getCB.pal`: Select from two colorblind-friendly palettes (8 colors each) with either gray or black as the first color
 - `get.divisors`: Get the divisors of an integer
 - `min2time`: Convert minutes in decimal form to (years), days, hours, minutes, and seconds
+- `nds`: Roll some dice!
 - `prev.tbl`: Previews the first n rows and columns from an array, matrix, data.frame...etc. Like `head` but also limits the columns shown, not just the rows.
 - `replace.dt.NAs`: Replaces all NAs in an object of class data.table with 0 (or another replacement)
 - `right.triangle`: Given the lenghts of two sides of a right triangle, returns the third (via the Pythagorean theorem)
