@@ -17,6 +17,6 @@ anova2dt <- function(tbl, sig.thresh = 0.05) {
   p.col <- str_which(names(dt), "Pr|p\\.val|p_val")
   names(dt)[p.col] <- "P.value"
   names(dt) <- str_to_title(names(dt))
-  dt[, Sig := ifelse(P.value <= sig.thresh, "*", "")]
+  dt$Sig <- ifelse(dt$P.value <= sig.thresh, "*", "")
   return(copy(dt))
 }
