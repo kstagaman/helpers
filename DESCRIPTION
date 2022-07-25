@@ -1,7 +1,7 @@
 Package: helpers
 Type: Package
 Title: A package of short, broadly useful functions
-Version: 0.1.4
+Version: 0.1.5
 Date: `Sys.Date`
 Author: Keaton Stagaman
 Maintainer: Keaton Stagaman <kstagaman@gmail.com>
@@ -11,5 +11,6 @@ Encoding: UTF-8
 LazyData: true
 Suggests:
   BiocManager,
-  data.table
+  data.table,
+  stringr
 RoxygenNote: 7.2.1

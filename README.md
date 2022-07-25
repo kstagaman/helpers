@@ -10,6 +10,7 @@ devtools::install_github("kstagaman/helpers")
 
 ## Current Functions
 
+- `anova2dt`: Make a nice looking `data.table` from a results table from `anova`. This function requires the packages 'data.table' and 'stringr' to be installed, and does __not__ work with results from `summary`.
 - `as.obj`: Treat a string as an object name
 - `cat.n`: Automatically set the `sep` argument in `cat` to a newline
 - `chance.to.happen`: Calculate the probability of an outcome happening given its per-event probability and the number of events
